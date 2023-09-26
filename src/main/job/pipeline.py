@@ -13,8 +13,6 @@ class PySparkJob(PySparkJobInterface):
 
     def average_salary(self, employee: DataFrame) -> int:
         # TODO: Put your code here
-        employee = employee.filter((employee["salary"].isNotNull()) & (employee["salary"] > 0))
-        avg_salary = employee.select(avg("salary").alias("avg_salary")).first()["avg_salary"]
-        return int(avg_salary)
+        
 
 
