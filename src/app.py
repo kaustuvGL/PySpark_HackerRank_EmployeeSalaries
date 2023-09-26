@@ -6,7 +6,7 @@ def main():
 
     # Load input data to DataFrame
     print("<<Reading CSV>>")
-    employee = job.read_csv('../data/employee.csv')
+    employee = job.read_csv(sys.argv[1])
 
     # Get number of distinct IDs
     print("<<Average Salary>>")
