@@ -16,7 +16,7 @@ buildNumber.properties
 
 #Jupyter notebook
 .ipynb
-*/.ipynb/*
+*.ipynb
 # Node
 
 # Logs
