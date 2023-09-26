@@ -21,6 +21,6 @@ configuration:
       - src/main/app.py
       - src/main/job/pipeline.py
     project_menu:
-      run: "python3 src/app.py data/data_file1.csv data/data_file2.csv"
+      run: "python3 src/app.py data/employee.csv"
       install: "pip3 install -r requirements.txt"
       test: "py.test -p no:warnings"
